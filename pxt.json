@@ -1,0 +1,34 @@
+{
+    "name": "TF2D: An Engineer's problem 1.9b.7a - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "sprite-scaling": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "controller": "*",
+        "multiplayer": "*",
+        "radio-broadcast": "*",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.4.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.55",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
