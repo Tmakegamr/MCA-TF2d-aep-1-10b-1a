@@ -92,7 +92,7 @@ controller.player3.onButtonEvent(ControllerButton.B, ControllerButtonEvent.Press
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
-        `, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Four)), 120, 0)
+        `, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Three)), 120, 0)
 })
 controller.player2.onButtonEvent(ControllerButton.B, ControllerButtonEvent.Pressed, function () {
     if (statusbar3.value > 0) {
@@ -135,7 +135,7 @@ controller.player4.onButtonEvent(ControllerButton.B, ControllerButtonEvent.Press
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
-        `, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Three)), 100, 0)
+        `, mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Four)), 100, 0)
     projectile3.y += 5
 })
 function Hpbar () {
